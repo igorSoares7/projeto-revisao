@@ -28,7 +28,7 @@ async function iniciarCadastro(){
             description: description
         })
     }
-    const response = await fetch(URL_API_LIVROS, options)
+     await fetch(URL_API_LIVROS, options)
     // 3 Monstrar em tela o resultado da chamada
     // Mensagem de sucesso ou erro
 }
