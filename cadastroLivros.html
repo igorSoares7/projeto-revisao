@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/cadastroLivros.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastroStyle.css">
     <title>Cadastro de Livros</title>
 </head>
 <body>
@@ -17,10 +17,11 @@
     </header>    
 
     <main>
-        <div>
+        <div id="caixa-input">
             <input placeholder="Título" type="text" id="title">
             <input placeholder="Descrição" type="text" id="description">
             <button onclick="iniciarCadastro()">Cadastrar</button>
+            <div id="resultado"></div>
         </div>
     </main>
 </body>

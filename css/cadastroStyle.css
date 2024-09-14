@@ -42,19 +42,27 @@ a{
     padding: 3px
 }
 
-#mostrarLivros{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+button{
+    background-color: #4B5C6B;
+    padding: 5px;
+    color: whitesmoke;
+    border: 0px;
+}
 
+
+#caixa-input {
+    display: flex;
+    min-height: 300px;
+    flex-direction: column;
+    margin: 10px 50px;
+    gap: 5px;
+    
 
 }
 
-button{
-    width: 90%;
-    background-color: #4B5C6B;
-    border: 0px;
+#resultado {
     color: whitesmoke;
     border-radius: 3px;
     padding: 5px;
+    text-align: center;    
 }
